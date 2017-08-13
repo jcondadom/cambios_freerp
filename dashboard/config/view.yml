@@ -1,0 +1,61 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Vendedores
+    robots:       index, follow
+    description:  Vendedores
+    keywords:     Vendedores
+    language:     en
+
+  stylesheets:    [main]
+  javascripts:    []
+
+  has_layout:     on
+  layout:         layout_dashboard
+
+indexSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, vendedores/highcharts.js]
+dashboardSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficaclienteSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficapedidosmesSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficafacturacionSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficacuentaxcobrarSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficaclientesmayormenosfacSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficaventaproductosSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficavendedoresmesSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficarutasmesSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]
+graficacoberturaestimadaSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard, vendedores/data_table/jquery.dataTables.css]
+  javascripts:    [vendedores/jquery-1.4.2.min.js, vendedores/jquery-ui-1.8.5.custom.min.js, vendedores/jquery.ui.i18n.all.js, vendedores/thickbox-compressed.js, highchart/code/highcharts.js, highchart/code/highcharts-3d.js, highchart/code/modules/exporting.js, vendedores/data_table/jquery-1.12.4.js, vendedores/data_table/jquery.dataTables.js]

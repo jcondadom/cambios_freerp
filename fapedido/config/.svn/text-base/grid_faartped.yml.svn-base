@@ -1,0 +1,124 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  tabla:                   faartped
+  anchogrid:               1000
+  ancho:                   1400
+  filas:                   25
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cod. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  html:                    [size="20"]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [size="40", readonly=true]
+3:
+  titulo:                  Cant. Solicitada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canord
+  esnumerico:              true
+  html:                    ["size=10"]
+4:
+  titulo:                  Cant. Despachada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             candes
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+5:
+  titulo:                  Cant. Ajustada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canaju
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+6:
+  titulo:                  Cant. Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cantot
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+7:
+  titulo:                  Precio Unitario
+  tipo:                    c
+  nombrecampo:             preart
+  html:                    [ ]
+  esgrabable:              true
+8:      # Columna 8
+  titulo:                  Precio Editable
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             precioe
+  esnumerico:              true
+  oculta:                  false
+  html:                    ["size=10 readonly=true"]
+9:
+  titulo:                  Descuento
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mondesc
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+10:
+  titulo:                  Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monrgo
+  esnumerico:              true
+  html:                    [size="10", readonly=true]
+11:
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totart
+  esnumerico:              true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this);' readonly=true"]
+12:       # Columna 12
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:        true
+  html:                    [ ]
+13:       # Columna 13
+  titulo:                  Recargos
+  tipo:                    t
+  nombrecampo:             anadirrec
+  esgrabable:              true  
+  html:                    [size="1"]
+14:
+  titulo:                  Porcentaje Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porrgo
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10 readonly=true"]
+15:
+  titulo:                  BTU Contratado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             btucon
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this);'"]
+16:       # Columna 16
+  titulo:                  Datos Recargos
+  tipo:                    t
+  nombrecampo:             recargos
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+17:       # Columna 17
+  titulo:                  Recargo Porcentaje
+  tipo:                    t
+  nombrecampo:             recargos2
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
